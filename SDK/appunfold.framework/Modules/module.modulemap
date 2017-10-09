@@ -1,0 +1,6 @@
+framework module appunfold {
+  umbrella header "appunfold.h"
+
+  export *
+  module * { export * }
+}
