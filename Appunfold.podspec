@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Appunfold"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "USER ONBOARDING & SELF HELP FOR MOBILE"
   s.description  = <<-DESC 
   					Intelligent visual walkthroughs to handhold your users through workflows and new features.
@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.author       = { "Aravind G S" => "aravind@appunfold.com" }
   s.source       = { :git => "https://github.com/appunfold/ios-sdk.git", :tag => s.version.to_s }
   s.vendored_frameworks = "SDK/appunfold.framework"
+  s.frameworks 	 = 'UIKit', 'Foundation', 'SystemConfiguration'
   s.requires_arc = true
 end

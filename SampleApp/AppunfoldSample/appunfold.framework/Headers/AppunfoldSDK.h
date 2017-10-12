@@ -11,12 +11,20 @@
 
 @interface AppunfoldSDK : NSObject <UITableViewDataSource, UITableViewDelegate>
 
-+ (AppunfoldSDK *) sharedInstance;
++ (AppunfoldSDK * _Nonnull) sharedInstance;
 
-- (void) initWithAPIKey : (NSString *) token;
+- (void) initWithAPIKey : (NSString * _Nonnull) token;
 
-- (void) viewHierarchyChangedWithView:(UIView *)view;
+- (void) viewHierarchyChangedWithView:(UIView *  _Nullable)view;
+
+- (void) setUserWithId:(NSString * _Nonnull)userId username:(NSString * _Nullable)username email:(NSString * _Nullable)email andParameters:(NSDictionary * _Nullable)parameters;
 
 - (void) deactivateSDK;
+
+- (BOOL) isFABEnabled;
+
+- (void) enableFAB:(BOOL)enable;
+
+- (void) showHelpCenter;
 
 @end
