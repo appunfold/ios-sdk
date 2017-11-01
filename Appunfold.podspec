@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Appunfold"
-  s.version      = "0.1.5"
+  s.version      = "1.0"
   s.summary      = "USER ONBOARDING & SELF HELP FOR MOBILE"
   s.description  = <<-DESC 
   					Intelligent visual walkthroughs to handhold your users through workflows and new features.
