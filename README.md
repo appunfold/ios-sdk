@@ -12,7 +12,7 @@
   ### Cocoapods
   Add 
   ```
-    pod 'Appunfold', '~> 0.1'
+    pod 'Appunfold', '~> 1.0'
   ``` 
   to your Podfile.
   In terminal, go to the folder of your project and enter ``pod install``. Open <your-project-name.xcworkspace>
