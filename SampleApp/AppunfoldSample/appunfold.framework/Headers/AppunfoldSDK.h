@@ -13,7 +13,11 @@
 
 + (AppunfoldSDK * _Nonnull) sharedInstance;
 
-- (void) initWithAPIKey : (NSString * _Nonnull) token;
+- (void) initWithAPIKey:(NSString * _Nonnull) token;
+
+- (void) initWithAPIKey:(NSString * _Nonnull)token andManualSync:(BOOL)isManual;
+
+- (void) initWithAPIKey:(NSString * _Nonnull)token manualSync:(BOOL)isManual andHideFabButton:(BOOL)fabHidden;
 
 - (void) viewHierarchyChangedWithView:(UIView *  _Nullable)view;
 
@@ -26,5 +30,7 @@
 - (void) enableFAB:(BOOL)enable;
 
 - (void) showHelpCenter;
+
+- (void) sync;
 
 @end

@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import <appunfold/appunfold.h>
-
 @interface AppDelegate ()
 
 @end
@@ -18,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[AppunfoldSDK sharedInstance] initWithAPIKey:@"123"];
+    [[AppunfoldSDK sharedInstance] initWithAPIKey:@"9ff97e80464ad0aa4e6218879d4301a23eded14a"];
     return YES;
 }
 
