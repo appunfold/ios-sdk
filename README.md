@@ -20,7 +20,7 @@
   ### Carthage
   Add 
   ```
-    github "Appunfold/appunfold-ios-sdk"
+    github "Appunfold/ios-sdk"
   ``` 
   to your Cartfile. In terminal, go to the folder of your project and enter ``carthage update``
 
