@@ -3,6 +3,37 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [1.0.6] - 2017-11-28
+
+### Added
+
+ * New ultra minimal helpcenter design 
+ * Guided screen tours with auto-triggers
+ * Seemless support for screen-independent walkthrough
+
+---
+
+### [1.0.5] - 2017-11-27
+
+#### Changed
+
+* Static Walkthrough redesign
+* UI-UX update
+
+---
+
+### [1.0.4] - 2017-11-27
+
+#### Added
+
+* Support for iPad
+ 
+#### Changed
+
+* UI-UX update
+
+---
+
 ### [1.0.3] - 2017-11-23
 
 #### Added
