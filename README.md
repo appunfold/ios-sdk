@@ -1,5 +1,9 @@
 # Appunfold iOS SDK Integration Document
 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Appunfold.svg)](https://img.shields.io/cocoapods/v/Appunfold.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Platform](https://img.shields.io/cocoapods/p/Appunfold.svg?style=flat)](http://cocoapods.org/pods/Appunfold)
+
   This guide will provide you with step by step details on how to integrate the SDK in just a few minutes. The following steps outline the integration process in details.
 
   ## Steps to integrate the sdk to your Xcode - iOS project
