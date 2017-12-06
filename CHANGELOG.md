@@ -3,6 +3,18 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [1.0.7] - 2017-12-06
+
+### Added
+
+* Container for each step in static walkthrough
+
+### Changed
+
+ * Removed extra padding for text in helpcenter question descriptions
+ * Minor bug fixes
+---
+
 ### [1.0.6] - 2017-11-28
 
 ### Added
