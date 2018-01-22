@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2E4508F2010CB8B009FAB93 /* appunfold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E4508E2010CB8A009FAB93 /* appunfold.framework */; };
-		F2E450902010CB8B009FAB93 /* appunfold.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2E4508E2010CB8A009FAB93 /* appunfold.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F273FA5520161C38009B09D7 /* appunfold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F273FA5420161C37009B09D7 /* appunfold.framework */; };
+		F273FA5620161C38009B09D7 /* appunfold.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F273FA5420161C37009B09D7 /* appunfold.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2F9B6501F8ADE1000CF21D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9B64F1F8ADE1000CF21D0 /* AppDelegate.m */; };
 		F2F9B6531F8ADE1000CF21D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9B6521F8ADE1000CF21D0 /* ViewController.m */; };
 		F2F9B6561F8ADE1000CF21D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F9B6541F8ADE1000CF21D0 /* Main.storyboard */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F2E450902010CB8B009FAB93 /* appunfold.framework in Embed Frameworks */,
+				F273FA5620161C38009B09D7 /* appunfold.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F2E4508E2010CB8A009FAB93 /* appunfold.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = appunfold.framework; sourceTree = "<group>"; };
+		F273FA5420161C37009B09D7 /* appunfold.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = appunfold.framework; sourceTree = "<group>"; };
 		F2F9B64B1F8ADE1000CF21D0 /* AppunfoldSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppunfoldSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F9B64E1F8ADE1000CF21D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2F9B64F1F8ADE1000CF21D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E4508F2010CB8B009FAB93 /* appunfold.framework in Frameworks */,
+				F273FA5520161C38009B09D7 /* appunfold.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		F2F9B6421F8ADE1000CF21D0 = {
 			isa = PBXGroup;
 			children = (
-				F2E4508E2010CB8A009FAB93 /* appunfold.framework */,
+				F273FA5420161C37009B09D7 /* appunfold.framework */,
 				F2F9B64D1F8ADE1000CF21D0 /* AppunfoldSample */,
 				F2F9B64C1F8ADE1000CF21D0 /* Products */,
 			);
